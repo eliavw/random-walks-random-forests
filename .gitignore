@@ -1,0 +1,20 @@
+
+
+prod/
+ 
+# Data has to be downloaded and models have to be generated
+resc/data/
+resc/models/
+ 
+# Baselines
+baselines/ 
+ 
+# Stupid directories from IDE, python, notebooks
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+**/.idea
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/
+**/__pycache__
+**/__pycache__/

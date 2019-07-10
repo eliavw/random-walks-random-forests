@@ -1,0 +1,32 @@
+{
+    "RunMercs.Mercs.ind.max_depth": 8,
+    "RunMercs.Mercs.ind.type": "DT",
+    "RunMercs.Mercs.sel.its": 4,
+    "RunMercs.Mercs.sel.param": 2,
+    "RunMercs.folds": [
+        0
+    ],
+    "RunMercs.qry.keyword": "it-S",
+    "RunMercs.timeout": 3600,
+    "explore.Mercs.pred.its": [
+        0.1
+    ],
+    "explore.Mercs.pred.param": [
+        0.95
+    ],
+    "explore.Mercs.pred.type": [
+        "MI",
+        "MA",
+        "MAFI"
+    ],
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix"
+    ],
+    "idx": 1
+}

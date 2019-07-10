@@ -1,0 +1,50 @@
+#!/bin/bash
+
+echo ALPHA
+#   ----    ----    ----    ----    #
+#           0. Inspect env          #
+#   ----    ----    ----    ----    #
+
+echo Running run remote
+echo nb procs $nb_procs
+echo commands fname $commands_fname
+echo exe atom fname $exe_atom_fname
+echo nodefile_fname $nodefile_fname
+echo conda $remote_conda
+
+
+#   ----    ----    ----    ----    #
+#           2. Script               #
+#   ----    ----    ----    ----    #
+
+seq 0 $nb_procs | parallel --gnu\
+                  --progress\
+                  --sshloginfile $nodefile_fname\
+                  "export PATH="$remote_conda:$PATH";\
+                  OMP_NUM_THREADS=1 python $exe_atom_fname $commands_fname $1"
+
+echo OMEGA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

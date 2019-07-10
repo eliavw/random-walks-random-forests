@@ -1,0 +1,3 @@
+,script_fname,config_fname,log_fname,fold,timeout
+0,/cw/dtailocal/Repos/random-walks-random-forests/cmd/run_Modulo.py,/cw/dtailocal/Repos/random-walks-random-forests/prod/RunModulo/000018/config/RunModulo.json,/cw/dtailocal/Repos/random-walks-random-forests/prod/RunModulo/000018/logs/nltcs_Test_F00_log,0,3600
+1,/cw/dtailocal/Repos/random-walks-random-forests/cmd/run_Modulo.py,/cw/dtailocal/Repos/random-walks-random-forests/prod/RunModulo/000019/config/RunModulo.json,/cw/dtailocal/Repos/random-walks-random-forests/prod/RunModulo/000019/logs/nltcs_Test_F00_log,0,3600

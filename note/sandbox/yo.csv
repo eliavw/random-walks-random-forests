@@ -1,0 +1,22 @@
+,Dataset name,Number of instances,Number of attributes
+0,cwebkb,4199,839
+1,book,11598,500
+2,bbc,2225,1058
+3,kdd,234954,64
+4,ad,3279,1556
+5,msnbc,388434,17
+6,tretail,29387,135
+7,msweb,37711,264
+8,jester,14116,100
+9,pumsb_star,16349,163
+10,baudio,20000,100
+11,nltcs,21574,16
+12,plants,23215,68
+13,dna,3186,180
+14,bnetflix,20000,100
+15,voting,1764,1357
+16,cr52,9100,889
+17,c20ng,18821,910
+18,kosarek,44500,190
+19,accidents,17009,110
+20,tmovie,6117,490

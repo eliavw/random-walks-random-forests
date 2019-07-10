@@ -1,0 +1,30 @@
+{
+    "RunMercs.Mercs.ind.max_depth": 8,
+    "RunMercs.Mercs.ind.type": "DT",
+    "RunMercs.Mercs.sel.its": 4,
+    "RunMercs.Mercs.sel.param": 2,
+    "RunMercs.folds": [
+        0
+    ],
+    "RunMercs.qry.keyword": "it-S",
+    "RunMercs.timeout": 3600,
+    "explore.Mercs.pred.its": [
+        16
+    ],
+    "explore.Mercs.pred.param": [
+        2
+    ],
+    "explore.Mercs.pred.type": [
+        "RW"
+    ],
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix"
+    ],
+    "idx": 3
+}

@@ -1,0 +1,26 @@
+{
+    "RunMercs.folds": [
+        1,
+        2
+    ],
+    "RunMercs.mod.keyword": "default",
+    "RunMercs.mod.type": "Mercs",
+    "RunMercs.qry.keyword": "iterative",
+    "RunMercs.timeout": 3600,
+    "explore.Mercs.pred.its": [
+        0.1
+    ],
+    "explore.Mercs.pred.param": [
+        0.95
+    ],
+    "explore.Mercs.pred.type": [
+        "MI",
+        "MA",
+        "MAFI"
+    ],
+    "explore.dataset": [
+        "nltcs",
+        "bnetflix"
+    ],
+    "idx": 3
+}

@@ -1,0 +1,38 @@
+{
+    "MakeModel.child": "Mercs",
+    "MakeModel.fit.ind.max_depth": 4,
+    "MakeModel.fit.ind.type": "DT",
+    "MakeModel.fit.sel.its": 8,
+    "MakeModel.fit.sel.param": 2,
+    "MakeModel.folds": [
+        0
+    ],
+    "MakeModel.mod.keyword": "kdd4",
+    "MakeModel.mod.type": "Mercs",
+    "MakeModel.timeout": 7200,
+    "child": "MakeModel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix",
+        "accidents",
+        "tretail",
+        "pumsb_star",
+        "dna",
+        "kosarek",
+        "msweb",
+        "book",
+        "tmovie",
+        "cwebkb",
+        "cr52",
+        "c20ng",
+        "bbc",
+        "voting",
+        "ad"
+    ],
+    "idx": 60
+}

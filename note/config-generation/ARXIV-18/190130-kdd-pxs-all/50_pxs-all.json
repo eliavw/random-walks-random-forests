@@ -1,0 +1,35 @@
+{
+    "RunSmileParallel.folds": [
+        0
+    ],
+    "RunSmileParallel.mod.keyword": "default",
+    "RunSmileParallel.mod.type": "PxS",
+    "RunSmileParallel.nb_queries": 100,
+    "RunSmileParallel.qry.keyword": "it-S",
+    "RunSmileParallel.timeout": 1800,
+    "child": "RunSmileParallel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix",
+        "accidents",
+        "tretail",
+        "pumsb_star",
+        "dna",
+        "kosarek",
+        "msweb",
+        "book",
+        "tmovie",
+        "cwebkb",
+        "cr52",
+        "c20ng",
+        "bbc",
+        "voting",
+        "ad"
+    ],
+    "idx": 50
+}

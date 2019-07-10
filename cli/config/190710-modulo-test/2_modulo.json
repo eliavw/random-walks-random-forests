@@ -1,0 +1,19 @@
+{
+    "RunModulo.folds": [
+        0
+    ],
+    "RunModulo.mod.keyword": "default",
+    "RunModulo.mod.type": "Modulo",
+    "RunModulo.nb_queries": 100,
+    "RunModulo.qry.keyword": "it-S",
+    "RunModulo.timeout": 3600,
+    "child": "RunModulo",
+    "explore.Modulo.prediction_algorithm": [
+        "mi",
+        "mrai"
+    ],
+    "explore.dataset": [
+        "nltcs"
+    ],
+    "idx": 2
+}

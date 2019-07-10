@@ -1,0 +1,21 @@
+{
+    "RunSmileParallel.folds": [
+        0
+    ],
+    "RunSmileParallel.mod.keyword": "default",
+    "RunSmileParallel.mod.type": "PxS",
+    "RunSmileParallel.nb_queries": 100,
+    "RunSmileParallel.qry.keyword": "it-S",
+    "RunSmileParallel.timeout": 720.0,
+    "child": "RunSmileParallel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix"
+    ],
+    "idx": 100
+}

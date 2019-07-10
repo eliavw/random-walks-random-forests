@@ -1,0 +1,18 @@
+{
+    "RunSmile.folds": [
+        0
+    ],
+    "RunSmile.qry.keyword": "iterative",
+    "RunSmile.timeout": 7200,
+    "child": "RunSmile",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix"
+    ],
+    "idx": 20
+}

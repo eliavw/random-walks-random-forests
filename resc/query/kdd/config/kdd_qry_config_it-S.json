@@ -1,0 +1,10 @@
+{
+    "nb_atts": 64,
+    "qry_mode": "basic",
+    "random_seed": 997,
+    "root_dir": "/cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework",
+    "dataset": "kdd",
+    "mode": "iterative",
+    "name": "it-S",
+    "nb_diff_configs": 10
+}

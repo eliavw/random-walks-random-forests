@@ -1,0 +1,46 @@
+{
+    "RunMercs.Mercs.ind.type": "DT",
+    "RunMercs.Mercs.sel.its": 8,
+    "RunMercs.Mercs.sel.param": 2,
+    "RunMercs.folds": [
+        0
+    ],
+    "RunMercs.qry.keyword": "it-S",
+    "RunMercs.timeout": 7200,
+    "explore.Mercs.ind.max_depth": [
+        4
+    ],
+    "explore.Mercs.pred.its": [
+        8
+    ],
+    "explore.Mercs.pred.param": [
+        0.1
+    ],
+    "explore.Mercs.pred.type": [
+        "IT"
+    ],
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix",
+        "accidents",
+        "tretail",
+        "pumsb_star",
+        "dna",
+        "kosarek",
+        "msweb",
+        "book",
+        "tmovie",
+        "cwebkb",
+        "cr52",
+        "c20ng",
+        "bbc",
+        "voting",
+        "ad"
+    ],
+    "idx": 11
+}

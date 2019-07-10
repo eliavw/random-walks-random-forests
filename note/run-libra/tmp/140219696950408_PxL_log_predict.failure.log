@@ -1,0 +1,60 @@
+[SETTINGS] {
+  "date": "2018/12/18 12:45:04",
+  "date_iso": "2018-12-18T12:45:04.631509",
+  "params": null,
+  "system": {
+    "nodename": "frost",
+    "machine": "x86_64",
+    "platform": "Linux-4.4.0-140-generic-x86_64-with-debian-stretch-sid",
+    "processor": "x86_64",
+    "version": "#166-Ubuntu SMP Wed Nov 14 20:09:47 UTC 2018",
+    "system": "Linux",
+    "cpu_count": 8,
+    "cpu_times": {
+      "user": 2652.54,
+      "system": 60098.22,
+      "idle": 498648.32,
+      "nice": 81.66
+    },
+    "cpu_percent": 34.0,
+    "virtual_memory": {
+      "total": 33618407424,
+      "available": 29548797952,
+      "percent": 12.1,
+      "used": 3338072064,
+      "free": 580747264
+    }
+  },
+  "process": {
+    "username": "elia",
+    "cwd": "/cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra",
+    "create_time": 1545133502.46,
+    "cpu_times": {
+      "user": 0.84,
+      "system": 0.11
+    }
+  },
+  "logfile": "/cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/140219696950408_PxL_log_predict",
+  "max_time": 7200.0,
+  "command": "/home/elia/.opam/system/bin/libra maxprod -ev /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/evidence.csv -mo /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/pred.csv -m /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/model.dn -i /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/../resc/test.csv"
+}
+[INFO] cmd:/home/elia/.opam/system/bin/libra maxprod -ev /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/evidence.csv -mo /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/pred.csv -m /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/model.dn -i /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/../resc/test.csv; cwd:None
+[INFO] Start: Run process
+[INFO] Write log to /cw/dtailocal/Dropbox/Files/KUL/research/codebases/homework/note/run-libra/tmp/140219696950408_PxL_log_predict.running.log
+[STDERR] /home/elia/.opam/system/bin/_libra_maxprod: unknown option '-i'.
+[STDERR] Usage: maxprod -m <model> -ev <evidence> [...]
+[STDERR]   -m        Model file (BN or MN)
+[STDERR]   -mo       Output file for MPE states
+[STDERR]   -ev       Evidence file
+[STDERR]   -sameev   Use the same evidence for all queries
+[STDERR]   -q        Query file
+[STDERR]   -maxiter  Maximum number of iterations [50]
+[STDERR]   -thresh   Convergence threshold [0.0001]
+[STDERR]   -log      Log file
+[STDERR]   -v        Enable verbose output
+[STDERR]   -debug    Enable debugging output
+[STDERR]   -help     Display this list of options
+[STDERR]   --help    Display this list of options
+[INFO] Process ended (returncode 2)
+[INFO] Finished: Run process 0.203 seconds
+[WARNING] Exit:finished; Returncode:2; Time:0.20265

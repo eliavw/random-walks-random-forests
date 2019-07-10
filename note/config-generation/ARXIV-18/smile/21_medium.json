@@ -1,0 +1,19 @@
+{
+    "RunSmile.folds": [
+        0
+    ],
+    "RunSmile.qry.keyword": "iterative",
+    "RunSmile.timeout": 7200,
+    "child": "smile",
+    "explore.dataset": [
+        "accidents",
+        "tretail",
+        "pumsb_star",
+        "dna",
+        "kosarek",
+        "msweb",
+        "book",
+        "tmovie"
+    ],
+    "idx": 21
+}

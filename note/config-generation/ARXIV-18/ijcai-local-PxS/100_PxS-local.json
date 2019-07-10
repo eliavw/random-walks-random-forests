@@ -1,0 +1,16 @@
+{
+    "RunSmileParallel.folds": [
+        0
+    ],
+    "RunSmileParallel.mod.keyword": "default",
+    "RunSmileParallel.mod.type": "PxS",
+    "RunSmileParallel.nb_queries": 100,
+    "RunSmileParallel.qry.keyword": "it-S",
+    "RunSmileParallel.timeout": 3600,
+    "child": "RunSmileParallel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc"
+    ],
+    "idx": 100
+}

@@ -1,0 +1,15 @@
+{
+    "RunVersaDummy.VersaDummy.strategy": "stratified",
+    "RunVersaDummy.folds": [
+        0
+    ],
+    "RunVersaDummy.nb_queries": 100,
+    "RunVersaDummy.qry.keyword": "it-S",
+    "RunVersaDummy.timeout": 3600,
+    "child": "RunVersaDummy",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc"
+    ],
+    "idx": 200
+}

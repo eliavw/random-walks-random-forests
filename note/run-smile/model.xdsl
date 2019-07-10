@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This file was created by ACADEMIC version of SMILE -->
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="att_12">
+			<state id="S0" />
+			<state id="S1" />
+			<probabilities>0.7914971416799711 0.2085028583200288</probabilities>
+		</cpt>
+		<cpt id="att_1">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_12</parents>
+			<probabilities>0.8894853276075215 0.1105146723924783 0.4061496665843418 0.5938503334156582</probabilities>
+		</cpt>
+		<cpt id="att_10">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_12</parents>
+			<probabilities>0.8775782419155442 0.1224217580844557 0.2720424796245987 0.7279575203754013</probabilities>
+		</cpt>
+		<cpt id="att_14">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_10 att_12</parents>
+			<probabilities>0.8938686239620404 0.1061313760379597 0.5458257713248639 0.4541742286751361 0.5677470775770457 0.4322529224229543 0.1083785617367707 0.8916214382632293</probabilities>
+		</cpt>
+		<cpt id="att_13">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_14</parents>
+			<probabilities>0.7926308294766821 0.2073691705233179 0.07733109994416527 0.9226689000558348</probabilities>
+		</cpt>
+		<cpt id="att_4">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_13</parents>
+			<probabilities>0.699298579840665 0.3007014201593349 0.07045743329097839 0.9295425667090216</probabilities>
+		</cpt>
+		<cpt id="att_9">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_4 att_10</parents>
+			<probabilities>0.5759335581366304 0.4240664418633695 0.2091346153846154 0.7908653846153846 0.2021114993164211 0.7978885006835789 0.05337612933903947 0.9466238706609605</probabilities>
+		</cpt>
+		<cpt id="att_11">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_10</parents>
+			<probabilities>0.7094728905339639 0.290527109466036 0.1133775108718161 0.8866224891281839</probabilities>
+		</cpt>
+		<cpt id="att_15">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_11</parents>
+			<probabilities>0.9932556432372912 0.006744356762708754 0.7662558685446009 0.233744131455399</probabilities>
+		</cpt>
+		<cpt id="att_7">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_1 att_9 att_15</parents>
+			<probabilities>0.9806208053691274 0.01937919463087248 0.9078947368421052 0.09210526315789473 0.6310674093440946 0.3689325906559054 0.25717017208413 0.7428298279158699 0.8405017921146953 0.1594982078853047 0.7045454545454546 0.2954545454545455 0.2734913793103448 0.7265086206896552 0.04882154882154882 0.9511784511784512</probabilities>
+		</cpt>
+		<cpt id="att_5">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_7 att_9</parents>
+			<probabilities>0.8907473890339426 0.1092526109660574 0.5765801001251565 0.4234198998748436 0.3047337278106509 0.6952662721893491 0.1156588916951419 0.8843411083048582</probabilities>
+		</cpt>
+		<cpt id="att_8">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_7 att_10</parents>
+			<probabilities>0.9839410114900933 0.01605898850990681 0.930811179277437 0.06918882072256306 0.6060220525869381 0.3939779474130619 0.2380315194766577 0.7619684805233422</probabilities>
+		</cpt>
+		<cpt id="att_2">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_5 att_8</parents>
+			<probabilities>0.9577093875864917 0.04229061241350821 0.7989690721649484 0.2010309278350516 0.7078335150854235 0.2921664849145765 0.3926217038539554 0.6073782961460447</probabilities>
+		</cpt>
+		<cpt id="att_0">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_2 att_8 att_9</parents>
+			<probabilities>0.9752887228260869 0.02471127717391304 0.9594149155335806 0.04058508446641945 0.875 0.125 0.8664229471316086 0.1335770528683915 0.6977611940298507 0.3022388059701492 0.7193688118811882 0.2806311881188119 0.1 0.9 0.359795918367347 0.6402040816326531</probabilities>
+		</cpt>
+		<cpt id="att_3">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_5 att_8 att_13</parents>
+			<probabilities>0.8489084641899655 0.1510915358100345 0.6717990275526743 0.3282009724473258 0.6304347826086957 0.3695652173913044 0.4887005649717514 0.5112994350282486 0.2370538838348495 0.7629461161651504 0.1869565217391304 0.8130434782608696 0.2355704697986577 0.7644295302013422 0.13515625 0.86484375</probabilities>
+		</cpt>
+		<cpt id="att_6">
+			<state id="S0" />
+			<state id="S1" />
+			<parents>att_3 att_8 att_10</parents>
+			<probabilities>0.9729745997351631 0.02702540026483688 0.9069920844327176 0.09300791556728231 0.4177718832891246 0.5822281167108753 0.1782051282051282 0.8217948717948718 0.8343942287290473 0.1656057712709527 0.720014194464159 0.279985805535841 0.2146443514644351 0.7853556485355648 0.07890109890109891 0.9210989010989011</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE_ACADEMIC 1.2.1@64858e074dd1" name="Unnamed" faultnameformat="nodestate">
+			<node id="att_0">
+				<name>att_0</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_1">
+				<name>att_1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_2">
+				<name>att_2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_3">
+				<name>att_3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_4">
+				<name>att_4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_5">
+				<name>att_5</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_6">
+				<name>att_6</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_7">
+				<name>att_7</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_8">
+				<name>att_8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_9">
+				<name>att_9</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_10">
+				<name>att_10</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_11">
+				<name>att_11</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_12">
+				<name>att_12</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_13">
+				<name>att_13</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_14">
+				<name>att_14</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="att_15">
+				<name>att_15</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>

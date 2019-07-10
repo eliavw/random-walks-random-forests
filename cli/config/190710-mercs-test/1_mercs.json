@@ -1,0 +1,26 @@
+{
+    "RunMercs.folds": [
+        0
+    ],
+    "RunMercs.mod.keyword": "md4",
+    "RunMercs.mod.type": "Mercs",
+    "RunMercs.nb_queries": 100,
+    "RunMercs.qry.keyword": "it-S",
+    "RunMercs.timeout": 3600,
+    "child": "RunMercs",
+    "explore.Mercs.predict.algo": [
+        "MI",
+        "MAFI"
+    ],
+    "explore.Mercs.predict.its": [
+        0.1
+    ],
+    "explore.Mercs.predict.param": [
+        0.95
+    ],
+    "explore.dataset": [
+        "nltcs",
+        "msnbc"
+    ],
+    "idx": 1
+}

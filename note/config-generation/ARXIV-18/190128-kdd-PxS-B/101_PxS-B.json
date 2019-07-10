@@ -1,0 +1,28 @@
+{
+    "RunSmileParallel.folds": [
+        0
+    ],
+    "RunSmileParallel.mod.keyword": "default",
+    "RunSmileParallel.mod.type": "PxS",
+    "RunSmileParallel.nb_queries": 100,
+    "RunSmileParallel.qry.keyword": "it-S",
+    "RunSmileParallel.timeout": 1800.0,
+    "child": "RunSmileParallel",
+    "explore.dataset": [
+        "accidents",
+        "tretail",
+        "pumsb_star",
+        "dna",
+        "kosarek",
+        "msweb",
+        "book",
+        "tmovie",
+        "cwebkb",
+        "cr52",
+        "c20ng",
+        "bbc",
+        "voting",
+        "ad"
+    ],
+    "idx": 101
+}

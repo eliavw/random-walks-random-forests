@@ -1,0 +1,22 @@
+{
+    "RunPxLParallel.PxL.predict.algo": "maxprod",
+    "RunPxLParallel.folds": [
+        0
+    ],
+    "RunPxLParallel.machine": "jupiter",
+    "RunPxLParallel.mod.keyword": "default",
+    "RunPxLParallel.nb_queries": 100,
+    "RunPxLParallel.qry.keyword": "it-S",
+    "RunPxLParallel.timeout": 3600,
+    "child": "RunPxLParallel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc",
+        "jester",
+        "kdd",
+        "plants",
+        "baudio",
+        "bnetflix"
+    ],
+    "idx": 90
+}

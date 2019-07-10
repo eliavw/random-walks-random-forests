@@ -1,0 +1,17 @@
+{
+    "RunPxLParallel.PxL.predict.algo": "maxprod",
+    "RunPxLParallel.folds": [
+        0
+    ],
+    "RunPxLParallel.machine": "frost",
+    "RunPxLParallel.mod.keyword": "default",
+    "RunPxLParallel.nb_queries": 20,
+    "RunPxLParallel.qry.keyword": "it-S",
+    "RunPxLParallel.timeout": 360,
+    "child": "RunPxLParallel",
+    "explore.dataset": [
+        "nltcs",
+        "msnbc"
+    ],
+    "idx": 90
+}
